@@ -43,14 +43,21 @@ Claude asks: *"The button was red yesterday, but we deliberately changed to blue
 ## Quick Start
 
 ```bash
-# Install the plugin
+# Option 1: Install from GitHub (recommended)
+/plugin marketplace add slavko-at-klincov-it/decision-guard
+/plugin install decision-guard
+
+# Option 2: Load locally for development
 claude --plugin-dir ./decision-guard
-
-# Initialize in your project
-/decision-guard:init
-
-# Work normally — Claude logs decisions automatically
 ```
+
+Then initialize in your project:
+
+```
+/decision-guard:init
+```
+
+That's it. Claude logs decisions automatically from now on.
 
 ### Skills
 

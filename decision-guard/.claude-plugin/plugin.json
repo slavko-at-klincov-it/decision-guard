@@ -5,7 +5,9 @@
   "author": {
     "name": "Slavko Klincov"
   },
-  "repository": "https://github.com/slavkoklincov/decision-guard",
+  "repository": "https://github.com/slavko-at-klincov-it/decision-guard",
+  "homepage": "https://github.com/slavko-at-klincov-it/decision-guard#readme",
   "license": "MIT",
-  "keywords": ["decisions", "architecture", "dependency-tracking", "adr"]
+  "category": "productivity",
+  "keywords": ["decisions", "architecture", "dependency-tracking", "adr", "decision-journal", "memory"]
 }

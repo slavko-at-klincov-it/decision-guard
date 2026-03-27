@@ -61,7 +61,8 @@ Claude can either log the decision with `/decision-guard:log` or end the session
 ## Installation
 
 ```bash
-# From Claude Code
+# Install from GitHub (recommended)
+/plugin marketplace add slavko-at-klincov-it/decision-guard
 /plugin install decision-guard
 
 # For development/testing
