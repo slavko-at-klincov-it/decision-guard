@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Decision Guard temp files (created by hooks at runtime)
+.decisions/.stop_reminded
+.decisions/.last_nudge
+
+# Logs
+*.log

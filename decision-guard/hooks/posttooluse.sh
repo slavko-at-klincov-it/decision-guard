@@ -35,7 +35,7 @@ TOOL_NAME=$(printf '%s' "$INPUT" | grep -o '"tool_name"[[:space:]]*:[[:space:]]*
 
 # Skip changes to .decisions/ itself (that's us)
 case "$FILE_PATH" in
-  *.decisions/*|.decisions/*) exit 0 ;;
+  .decisions/*) exit 0 ;;
 esac
 
 # --- Check if change is "obviously significant" ---
