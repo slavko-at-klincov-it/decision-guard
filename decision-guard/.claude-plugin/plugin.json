@@ -1,0 +1,11 @@
+{
+  "name": "decision-guard",
+  "version": "1.0.0",
+  "description": "Decision Dependency Tracking for Claude Code. Tracks WHY decisions were made, warns when tasks conflict with active decisions, prevents AI coding loops.",
+  "author": {
+    "name": "Slavko Klincov"
+  },
+  "repository": "https://github.com/slavkoklincov/decision-guard",
+  "license": "MIT",
+  "keywords": ["decisions", "architecture", "dependency-tracking", "adr"]
+}
